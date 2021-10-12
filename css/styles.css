@@ -1,0 +1,217 @@
+:root {
+  --active-color: #2196f3;
+  --inactive-color: #f5f4fa;
+  --white: #ffffff;
+  --primary-font-color: #212121;
+  --secondary-font-color: #757575;
+  --background-grey-color: #2f303a;
+}
+
+/* Common styles */
+
+body {
+  font-family: 'roboto', -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Ubuntu, noto, arial, sans-serif;
+}
+
+.background-grey /*Серый фон для читаемости текста в отдельных секциях */ {
+  background-color: var(--background-grey-color);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-grey {
+  color: var(--secondary-font-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Main logo in both header and footer */
+
+.logo-black {
+  font-family: 'raleway', sans-serif;
+  font-weight: 700;
+  color: var(--primary-font-color);
+}
+
+.logo-white {
+  font-family: 'raleway', sans-serif;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.logo-blue-web {
+  color: var(--active-color);
+}
+
+/* Header */
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-font-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--active-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-font-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--active-color);
+}
+
+/* Hero section */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--active-color);
+}
+
+/* Work principles section */
+
+.principle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-font-color);
+}
+
+.principle-desc {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+/* What we do section */
+/* Our team section */
+
+.our-team {
+  background-color: var(--inactive-color);
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+
+.our-team-role {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+/* portfolio */
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+  background-color: var(--inactive-color);
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--white);
+  background-color: var(--active-color);
+}
+
+.porfolio-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-font-color);
+}
+
+.portfolio-item-desc {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+/* Footer */
+
+.address-link {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--active-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--active-color);
+}
