@@ -10,11 +10,10 @@
 /* Common styles */
 
 body {
-  font-family: 'roboto', -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    segoe ui, helvetica neue, helvetica, Ubuntu, noto, arial, sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 
-.background-grey /*Серый фон для читаемости текста в отдельных секциях */ {
+.background-grey {
   background-color: var(--background-grey-color);
 }
 
@@ -64,12 +63,18 @@ body {
 .logo-black {
   font-family: 'raleway', sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--primary-font-color);
 }
 
 .logo-white {
   font-family: 'raleway', sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--white);
 }
 
@@ -89,6 +94,10 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
+  color: var(--active-color);
+}
+
+.menu-link.current {
   color: var(--active-color);
 }
 
@@ -182,7 +191,7 @@ body {
   background-color: var(--active-color);
 }
 
-.porfolio-item {
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -190,7 +199,7 @@ body {
   color: var(--primary-font-color);
 }
 
-.portfolio-item-desc {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
